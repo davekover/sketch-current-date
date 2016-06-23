@@ -1,0 +1,17 @@
+{
+    "name" : "CurrentDate",
+    "identifier" : "com.sketchapp.examples.currentdate",
+    "version" : "1.0",
+    "description" : "Update a layer to the current date",
+    "authorEmail" : "hi@rubychen.info",
+    "author" : "Ruby Chen",
+    "commands" : [
+    {
+      "name" : "Today's Date",
+      "script" : "current-date.js",
+      "handler" : "onRun",
+      "shortcut" : "cmd ctrl d",
+      "identifier" : "currentdate"
+    }
+  ]
+}
